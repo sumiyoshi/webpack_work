@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "sub_install": "npm install -prefix build-tools",
     "dev": "npm run build_dev -prefix build-tools"
   }
 }
