@@ -1,6 +1,9 @@
 {
+  "devDependencies": {
+    "glob": "^7.1.6"
+  },
   "scripts": {
-    "sub_install": "npm install -prefix build-tools",
-    "dev": "npm run build_dev -prefix build-tools"
+    "sub_install": "yarn --cwd build-tools install",
+    "watch": "yarn --cwd build-tools watch"
   }
 }
